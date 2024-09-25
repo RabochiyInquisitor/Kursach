@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.test{ 
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+body{
+    background-color: rgb(188 75 205);
+    width: 100%;
+    height: 2000px;
+}
+#index{
+    top: 100px;
+    left: 150px;
+    width: 450px;
+    height: 450px;
+    margin-left: 110px;
+}
+
+#iindex{
+  /* изменение позиции, относительно настоящего местоположения объекта*/
+    top: 100px; /*сдвиг от верхнего края элемента*/
+    left: 200px; /* сдвиг от левого края элемента*/
+    width: 600px; /* ширина элемента*/
+    height: 450px; /*высота элемента */
+    margin-left: 110px;
+}
+.text{
+    color: white; /*цвет шрифта*/
+    font-size: 50px; /*Размер шрифта*/
+    text-align: center; /*Центр, местоположение*/
+}
+.zapis{
+    position:absolute;  /* изменение позиции, относительно настоящего местоположения объекта (где объект внизу- наверху)*/
+    right: 150px; /* сдвиг от правого края элемента*/
+    top: 100px; /* сдвиг от верхнего края элемента*/
+    width: 280px; /*Ширина элемента*/
+    padding: 20px 10px; /*внутренний отступ элемента*/
+    border: 3px solid #fff;
+    background-color: transparent;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    text-decoration:none;
+    justify-content: center;
+
+
+}
+.block{
+    width: 100%;
+    height: 900px;
+    background-color: #30205f;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    position: relative;
+}
+.pochemy{
+    position:absolute;
+    font-size: 50px; /*Размер шрифта*/
+    text-align: center; /*Центр, местоположение*/
+    text-underline-position: above;
+}
